@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg4202"
+   viewBox="0 0 343.48571 343.48571"
+   height="96.939301mm"
+   width="96.939301mm">
+  <defs
+     id="defs4204">
+    <marker
+       style="overflow:visible"
+       id="marker5074"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path5076" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path4798" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata4207">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-201.11429,-339.19077)"
+     id="layer1">
+    <circle
+       r="167.14285"
+       cy="510.93362"
+       cx="372.85715"
+       id="path4212"
+       style="fill:#ffc821;fill-opacity:1;stroke:#000000;stroke-width:9.19999981;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:9.01799965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4"
+       d="m 275.53758,452.09394 92.74815,94.7303 92.74816,-94.7303 28.49126,29.30654 -121.23942,123.83044 -121.23941,-123.83044 28.49126,-29.30654 z" />
+  </g>
+</svg>

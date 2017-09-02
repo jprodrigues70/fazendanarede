@@ -9,8 +9,32 @@
     <link rel="stylesheet" href="assets/css/fnr.css">
   </head>
   <body>
-    <section class="banner info">
-      <h1>FAZENDA NA REDE</h1>
+    <header class="gt-top-menu xs-left fixed transparent" id="menu">
+      <img id="menu-logo" class="hidden" src="assets/img/logo.svg" alt="Fazenda na Rede" style="max-width: 150px" />
+      <label class="menu-toggle">
+        <svg viewBox="0 0 24 24">
+          <path fill="#333" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"></path>
+        </svg>
+      </label>
+      <nav>
+        <ul>
+          <a href="#home"><li>Início</li></a>
+          <a href="#aboutus"><li>Sobre nós</li></a>
+          <a href="atividades.html"><li>Atividades</li></a>
+          <a href="colabore.html"><li>Colabore</li></a>
+          <a href="#contact"><li>Contato</li></a>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="banner info">
+      <div class="brand">
+        <img src="assets/img/logo-bordered.svg" alt="Fazenda na Rede" class="banner-logo">
+        <div class="words">
+          <p>Conectar</p>
+          <p>realizar</p>
+          <p>colaborar</p>
+        </div>
+      </div>
       <div class="frame">
         <div class="plane-container">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -29,8 +53,11 @@
         <img class="cloud distant super-slow massive" src="assets/img/cloud4.svg" alt="">
         <img class="cloud slower" src="assets/img/cloud5.svg" alt="">
       </div>
+      <a href="#aboutus">
+        <img src="assets/img/down.svg" alt="Fazenda na Rede" class="down">
+      </a>
     </section>
-    <section>
+    <section id="aboutus">
       <div class="medium center text-justify">
         <h1 class="text-center">Sobre nós</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -52,7 +79,7 @@
         <img src="assets/img/us/i4.jpg" alt="" class="kids" style="border-color: #f0c331">
       </div>
     </section>
-    <footer class="white">
+    <footer class="white" id="contact">
       <div class="flex-box">
         <div class="col">
           <h2>Contato</h2>
@@ -79,5 +106,8 @@
       </div>
     </footer>
     <script type="text/javascript" src="node_modules/gaintime/js/gaintime.min.js"></script>
+    <script type="text/javascript" src="assets/js/fnr.js">
+
+    </script>
   </body>
 </html>
